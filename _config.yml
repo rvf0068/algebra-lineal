@@ -58,6 +58,11 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # post_asides:
 # page_asides:
 
+# BibTex Citation plugin
+citation:
+    citation_style: plugins/journal-of-combinatorics.csl
+    citation_locale: es
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
