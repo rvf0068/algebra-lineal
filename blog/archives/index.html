@@ -32,6 +32,79 @@
 
   
 
+
+  <!--- MathJax Configuration -->
+  <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+    MathJax.Hub.Config({
+        // Only one of the two following lines, depending on user settings
+        // First allows browser-native MathML display, second forces HTML/CSS
+        //  config: ["MMLorHTML.js"], jax: ["input/TeX"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+        extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js",
+                     "TeX/noUndefined.js"],
+        tex2jax: {
+            inlineMath: [ ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"], ["\\begin{displaymath}","\\end{displaymath}"] ],
+            skipTags: ["script","noscript","style","textarea","pre","code"],
+            ignoreClass: "tex2jax_ignore",
+            processEscapes: false,
+            processEnvironments: true,
+            preview: "TeX"
+        },
+        showProcessingMessages: true,
+        displayAlign: "center",
+        displayIndent: "2em",
+
+        "HTML-CSS": {
+             scale: 100,
+             availableFonts: ["STIX","TeX"],
+             preferredFont: "TeX",
+             webFont: "TeX",
+             imageFont: "TeX",
+             showMathMenu: true,
+        },
+        MMLorHTML: {
+             prefer: {
+                 MSIE:    "MML",
+                 Firefox: "MML",
+                 Opera:   "HTML",
+                 other:   "HTML"
+             }
+        }
+    });
+/*]]>*///-->
+</script>
+
+
+<script type="text/javascript" src="http://aleph.sagemath.org/static/jquery.min.js"></script>
+<script type="text/javascript" src="http://aleph.sagemath.org/embedded_sagecell.js"></script>
+
+<!-- Initialize each cell -->
+<script>
+$(sagecell.init(
+    function() {
+        singlecell.makeSagecell({
+            inputLocation: '#sagecell1', 
+            replaceOutput: true,
+            hide: ['messages', 'computationID', 'files', 'sageMode', 
+                   'editorToggle', 'sessionTitle', 'done'],
+            evalButtonText: 'Evaluate'})
+    }
+ ))
+</script>
+
+<!-- Illustrate some CSS customizations --> 
+
+<style type="text/css">
+.CodeMirror-scroll {/* Slightly shorter input box */
+    height: 6em;
+}
+</style>
+
 </head>
 
 <body   >
@@ -58,6 +131,7 @@
 <ul class="main-navigation">
   <li><a href="/algebra-lineal/">Blog</a></li>
   <li><a href="/algebra-lineal/blog/archives">Archivo</a></li>
+  <li><a href="/algebra-lineal/acerca-de/">Contrato de curso</a></li>
 </ul>
 
 </nav>
@@ -121,6 +195,15 @@
 </script>
 
 
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 
