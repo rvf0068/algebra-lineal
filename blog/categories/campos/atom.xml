@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Álgebra Lineal]]></title>
-  <link href="http://rvf0068.github.io/algebra-lineal/atom.xml" rel="self"/>
+  <title><![CDATA[Category: campos | Álgebra Lineal]]></title>
+  <link href="http://rvf0068.github.io/algebra-lineal/blog/categories/campos/atom.xml" rel="self"/>
   <link href="http://rvf0068.github.io/algebra-lineal/"/>
   <updated>2013-07-26T22:24:57-05:00</updated>
   <id>http://rvf0068.github.io/algebra-lineal/</id>
@@ -69,6 +69,7 @@ operaciones usuales, es un campo.
 </ul>
 </div>
 </div>
+
 ]]></content>
   </entry>
   
