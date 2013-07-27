@@ -1,6 +1,12 @@
 #+title: Álgebra Lineal
 
 * Sobre el curso de álgebra lineal
+** Datos
+
+- Aula :: MF-5 del edificio MF-3.
+- Instructor :: Dr. Rafael Villarroel
+- Oficina :: 14 del edificio MF-1
+- Correo electrónico :: =rafaelv@uaeh.edu.mx= 
 
 ** Introducción
 

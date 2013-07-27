@@ -7,6 +7,18 @@ sharing: true
 footer: true
 ---
 
+# Datos
+
+-   **Aula:** MF-5 del edificio MF-3.
+
+-   **Días:** Lunes y miércoles 16-18hrs, jueves 16-17hrs.
+
+-   **Instructor:** Dr. Rafael Villarroel
+
+-   **Oficina:** 14 del edificio MF-1
+
+-   **Correo electrónico:** `rafaelv@uaeh.edu.mx`
+
 # Introducción
 
 Existen al menos dos maneras de impartir un curso de álgebra
