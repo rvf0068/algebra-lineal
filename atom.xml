@@ -4,7 +4,7 @@
   <title><![CDATA[Álgebra Lineal]]></title>
   <link href="http://rvf0068.github.io/algebra-lineal/atom.xml" rel="self"/>
   <link href="http://rvf0068.github.io/algebra-lineal/"/>
-  <updated>2013-07-29T15:41:59-05:00</updated>
+  <updated>2013-07-29T23:48:19-05:00</updated>
   <id>http://rvf0068.github.io/algebra-lineal/</id>
   <author>
     <name><![CDATA[Rafael Villarroel]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[test of kramdown]]></title>
+    <link href="http://rvf0068.github.io/algebra-lineal/blog/2013/07/29/test-of-kramdown/"/>
+    <updated>2013-07-29T23:44:00-05:00</updated>
+    <id>http://rvf0068.github.io/algebra-lineal/blog/2013/07/29/test-of-kramdown</id>
+    <content type="html"><![CDATA[<h2 id="esto-es-una-prueba">Esto es una prueba</h2>
+
+<p>Veremos $V$ un espacio vectorial, $a+b=c^2$ si funciona.</p>
+
+<div class="definition">
+A set $C$ is *convex* if for all 
+$x,y \in C$ and for all 
+$\alpha \in [0,1]$ the point 
+$\alpha x + (1-\alpha) y \in C$.
+</div>
+
+<div class="theorem">
+There are no natural numbers 
+$\naturals = (1, 2, 3, \ldots)$ 
+$x$, $y$, and $z$ such that 
+$x^n + y^n = z^n$, in which $n$ 
+is a natural number greater than 2.
+</div>
+
+<p>¿funcionará?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Campos]]></title>
