@@ -6,6 +6,8 @@
 # Don't create a table of contents
 # Export without section numbers
 
+# #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style1.css" />
+
 * Sobre el curso de álgebra lineal
 ** Datos
 
@@ -74,6 +76,7 @@ examen vale \(\frac{1}{4}\) de la calificación final.
   :CATEGORY: 2013cAlgebraLineal
   :ON: <2013-07-26 Fri>
   :categories: campos axiomas
+  :comments: true
   :END:
 
 ** Definición y ejemplos
@@ -105,3 +108,7 @@ Como ejemplos de campos, tenemos:
 
 - El conjunto \(\mathbb{R}\) de los números reales, con las
   operaciones usuales, es un campo.
+
+#+begin_theorem
+Solo para checar...
+#+end_theorem

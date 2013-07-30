@@ -9,7 +9,7 @@
   <meta name="author" content="Rafael Villarroel">
 
   
-  <meta name="description" content="Definición y ejemplos Un campo \(F\) es un conjunto junto con dos operaciones binarias, una
+  <meta name="description" content="Definición y ejemplos Un *campo* \(F\) es un conjunto junto con dos operaciones binarias, una
 suma \(+\colon F\times F\to F\) y un producto \(\cdot\ &hellip;">
   
 
@@ -31,54 +31,23 @@ suma \(+\colon F\times F\to F\) y un producto \(\cdot\ &hellip;">
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  messageStyle: "none",
+  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+});
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+
   
-
-
-  <!--- MathJax Configuration -->
-  <script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<script type="text/javascript">
-<!--/*--><![CDATA[/*><!--*/
-    MathJax.Hub.Config({
-        // Only one of the two following lines, depending on user settings
-        // First allows browser-native MathML display, second forces HTML/CSS
-        //  config: ["MMLorHTML.js"], jax: ["input/TeX"],
-            jax: ["input/TeX", "output/HTML-CSS"],
-        extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js",
-                     "TeX/noUndefined.js"],
-        tex2jax: {
-            inlineMath: [ ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"], ["\\begin{displaymath}","\\end{displaymath}"] ],
-            skipTags: ["script","noscript","style","textarea","pre","code"],
-            ignoreClass: "tex2jax_ignore",
-            processEscapes: false,
-            processEnvironments: true,
-            preview: "TeX"
-        },
-        showProcessingMessages: true,
-        displayAlign: "center",
-        displayIndent: "2em",
-
-        "HTML-CSS": {
-             scale: 100,
-             availableFonts: ["STIX","TeX"],
-             preferredFont: "TeX",
-             webFont: "TeX",
-             imageFont: "TeX",
-             showMathMenu: true,
-        },
-        MMLorHTML: {
-             prefer: {
-                 MSIE:    "MML",
-                 Firefox: "MML",
-                 Opera:   "HTML",
-                 other:   "HTML"
-             }
-        }
-    });
-/*]]>*///-->
-</script>
 
 
 <script type="text/javascript" src="http://aleph.sagemath.org/static/jquery.min.js"></script>
@@ -140,6 +109,87 @@ $(sagecell.init(
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/algebra-lineal/blog/2013/07/27/campos/">Campos</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-27T14:22:00-05:00" pubdate data-updated="true">Jul 27<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1 id="definicin-y-ejemplos">Definición y ejemplos</h1>
+
+<div class="definition">
+Un *campo* \(F\) es un conjunto junto con dos operaciones binarias, una
+suma \(+\colon F\times F\to F\) y un producto \(\cdot\colon F\times
+F\to F\) tales que:
+
+-   **F1:** La suma es *conmutativa*, es decir \(a+b=b+a\) para todos
+            \(a,b\in F\).
+
+-   **F2:** La suma es asociativa.
+
+-   **F3:** Existe un elemento \(0\in F\) tal que \(a+0=0+a=a\) para todo
+    \(a\in F\). El elemento \(0\) se llama *elemento neutro* de la
+    suma.
+
+-   **F4:** Para todo elemento \(a\in F\), existe un elemento \(-a\in F\)
+    tal que \(a+(-a)=(-a)+a=0\). El elemento \(-a\) se llama
+    *inverso aditivo* de \(a\).
+
+-   **F5:** El producto es conmutativo.
+
+-   **F6:** El producto es asociativo.
+
+-   **F7:** Existe un elemento \(1\in F\) tal que \(a1=1a=a\) para todo
+            \(a\in F\). Además \(1\ne 0\)
+
+-   **F8:** Para todo elemento \(a\in F\), tal que \(a\ne 0\) existe un
+    elemento \(a^{-1}\in F\) tal que \(a(a^{-1})=(a^{-1})a=1\).
+
+-   **F9:** Para todos los elementos \(a,b,c\in F\) se tiene que
+            \(a(b+c)=ab+ac\) y que \((a+b)c=ac+bc\).
+
+</div>
+
+<p>Como ejemplos de campos, tenemos:</p>
+
+<ul>
+  <li>El conjunto (\mathbb{R}) de los números reales, con las
+operaciones usuales, es un campo.</li>
+</ul>
+
+<div class="theorem">
+Solo para checar&#x2026;
+
+</div>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -218,6 +268,106 @@ Como ejemplos de campos, tenemos:
 operaciones usuales, es un campo.
 </li>
 </ul>
+
+<div class="theorem">
+<p>
+Solo para checar&#x2026;
+</p>
+
+</div>
+</div>
+</div>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/algebra-lineal/blog/2013/07/26/Campos/">Campos</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-26T00:00:00-05:00" pubdate data-updated="true">Jul 26<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Definición y ejemplos</h2>
+<div class="outline-text-2" id="text-1">
+<div class="definition">
+<p>
+Un <i>campo</i> \(F\) es un conjunto junto con dos operaciones binarias, una
+suma \(+\colon F\times F\to F\) y un producto \(\cdot\colon F\times
+F\to F\) tales que:
+</p>
+<dl class="org-dl">
+<dt> F1 </dt><dd>La suma es <i>conmutativa</i>, es decir \(a+b=b+a\) para todos
+        \(a,b\in F\).
+</dd>
+<dt> F2 </dt><dd>La suma es asociativa.
+</dd>
+<dt> F3 </dt><dd>Existe un elemento \(0\in F\) tal que \(a+0=0+a=a\) para todo
+\(a\in F\). El elemento \(0\) se llama <i>elemento neutro</i> de la
+suma. 
+</dd>
+<dt> F4 </dt><dd>Para todo elemento \(a\in F\), existe un elemento \(-a\in F\)
+tal que \(a+(-a)=(-a)+a=0\). El elemento \(-a\) se llama
+<i>inverso aditivo</i> de \(a\).
+</dd>
+<dt> F5 </dt><dd>El producto es conmutativo.
+</dd>
+<dt> F6 </dt><dd>El producto es asociativo.
+</dd>
+<dt> F7 </dt><dd>Existe un elemento \(1\in F\) tal que \(a1=1a=a\) para todo
+        \(a\in F\). Además \(1\ne 0\)
+</dd>
+<dt> F8 </dt><dd>Para todo elemento \(a\in F\), tal que \(a\ne 0\) existe un
+elemento \(a^{-1}\in F\) tal que \(a(a^{-1})=(a^{-1})a=1\).
+</dd>
+<dt> F9 </dt><dd>Para todos los elementos \(a,b,c\in F\) se tiene que
+        \(a(b+c)=ab+ac\) y que \((a+b)c=ac+bc\).
+</dd>
+</dl>
+
+</div>
+
+<p>
+Como ejemplos de campos, tenemos:
+</p>
+
+<ul class="org-ul">
+<li>El conjunto \(\mathbb{R}\) de los números reales, con las
+operaciones usuales, es un campo.
+</li>
+</ul>
+
+<div class="theorem">
+<p>
+Solo para checar&#x2026;
+</p>
+
+</div>
 </div>
 </div>
 </div>
@@ -240,7 +390,15 @@ operaciones usuales, es un campo.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/algebra-lineal/blog/2013/07/27/campos/">Campos</a>
+      </li>
+    
+      <li class="post">
         <a href="/algebra-lineal/blog/2013/07/26/campos/">Campos</a>
+      </li>
+    
+      <li class="post">
+        <a href="/algebra-lineal/blog/2013/07/26/Campos/">Campos</a>
       </li>
     
   </ul>

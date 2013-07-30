@@ -31,54 +31,23 @@ suma \(+\colon F\times F\to F\) y un producto \(\cdot\ &hellip;">
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
+<!-- mathjax config similar to math.stackexchange -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  messageStyle: "none",
+  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+});
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+
   
-
-
-  <!--- MathJax Configuration -->
-  <script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<script type="text/javascript">
-<!--/*--><![CDATA[/*><!--*/
-    MathJax.Hub.Config({
-        // Only one of the two following lines, depending on user settings
-        // First allows browser-native MathML display, second forces HTML/CSS
-        //  config: ["MMLorHTML.js"], jax: ["input/TeX"],
-            jax: ["input/TeX", "output/HTML-CSS"],
-        extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js",
-                     "TeX/noUndefined.js"],
-        tex2jax: {
-            inlineMath: [ ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"], ["\\begin{displaymath}","\\end{displaymath}"] ],
-            skipTags: ["script","noscript","style","textarea","pre","code"],
-            ignoreClass: "tex2jax_ignore",
-            processEscapes: false,
-            processEnvironments: true,
-            preview: "TeX"
-        },
-        showProcessingMessages: true,
-        displayAlign: "center",
-        displayIndent: "2em",
-
-        "HTML-CSS": {
-             scale: 100,
-             availableFonts: ["STIX","TeX"],
-             preferredFont: "TeX",
-             webFont: "TeX",
-             imageFont: "TeX",
-             showMathMenu: true,
-        },
-        MMLorHTML: {
-             prefer: {
-                 MSIE:    "MML",
-                 Firefox: "MML",
-                 Opera:   "HTML",
-                 other:   "HTML"
-             }
-        }
-    });
-/*]]>*///-->
-</script>
 
 
 <script type="text/javascript" src="http://aleph.sagemath.org/static/jquery.min.js"></script>
@@ -215,6 +184,13 @@ Como ejemplos de campos, tenemos:
 operaciones usuales, es un campo.
 </li>
 </ul>
+
+<div class="theorem">
+<p>
+Solo para checar&#x2026;
+</p>
+
+</div>
 </div>
 </div>
 </div>
@@ -264,6 +240,10 @@ operaciones usuales, es un campo.
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/algebra-lineal/blog/2013/07/26/Campos/" title="Previous Post: Campos">&laquo; Campos</a>
+      
+      
+        <a class="basic-alignment right" href="/algebra-lineal/blog/2013/07/27/campos/" title="Next Post: Campos">Campos &raquo;</a>
       
     </p>
   </footer>
@@ -278,7 +258,15 @@ operaciones usuales, es un campo.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/algebra-lineal/blog/2013/07/27/campos/">Campos</a>
+      </li>
+    
+      <li class="post">
         <a href="/algebra-lineal/blog/2013/07/26/campos/">Campos</a>
+      </li>
+    
+      <li class="post">
+        <a href="/algebra-lineal/blog/2013/07/26/Campos/">Campos</a>
       </li>
     
   </ul>
