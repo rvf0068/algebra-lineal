@@ -13,7 +13,7 @@ footer: true
 
 -   **Días:** Lunes y miércoles 16-18hrs, jueves 16-17hrs.
 
--   **Instructor:** Dr. Rafael Villarroel
+-   **Instructor:** Rafael Villarroel
 
 -   **Oficina:** 14 del edificio MF-1
 
@@ -79,22 +79,22 @@ demostraciones de los teoremas.
 # Evaluación del curso
 
 Se efectuarán tres evaluaciones del curso, cada evaluación consta de
-un "preexamen" y un examen. Cada preexamen vale \\(\frac{1}{12}\\) y cada
-examen vale \\(\frac{1}{4}\\) de la calificación final.
+un "preexamen" y un examen. Cada preexamen vale $\frac{1}{12}$ y cada
+examen vale $\frac{1}{4}$ de la calificación final.
 
 ## Fechas de exámenes:
 
--   Primer preexamen:
+-   Primer preexamen: 22 de agosto
 
--   Primer examen:
+-   Primer examen: 2 de septiembre
 
--   Segundo preexamen:
+-   Segundo preexamen: 19 de septiembre
 
--   Segundo examen:
+-   Segundo examen: 2 de octubre
 
--   Tercer preexamen:
+-   Tercer preexamen: 7 de noviembre
 
--   Tercer examen:
+-   Tercer examen: 20 de noviembre
 
 # Bibliografía recomendada
 
