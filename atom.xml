@@ -4,7 +4,7 @@
   <title><![CDATA[Álgebra Lineal]]></title>
   <link href="http://rvf0068.github.io/algebra-lineal/atom.xml" rel="self"/>
   <link href="http://rvf0068.github.io/algebra-lineal/"/>
-  <updated>2013-07-30T00:03:09-05:00</updated>
+  <updated>2013-07-30T00:07:31-05:00</updated>
   <id>http://rvf0068.github.io/algebra-lineal/</id>
   <author>
     <name><![CDATA[Rafael Villarroel]]></name>
@@ -38,6 +38,10 @@ is a natural number greater than 2.
 </div>
 
 <p>¿funcionará? random variables <script type="math/tex">X_1, X_2, X_3</script> from</p>
+
+<script type="math/tex; mode=display">a^2+b^2=c^2</script>
+
+<p>checando</p>
 ]]></content>
   </entry>
   
