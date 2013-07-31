@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-# Datos
+## Datos ##
 
 -   **Aula:** MF-5 del edificio MF-3.
 
@@ -19,7 +19,7 @@ footer: true
 
 -   **Correo electrónico:** `rafaelv@uaeh.edu.mx`
 
-# Introducción
+## Introducción ##
 
 Existen al menos dos maneras de impartir un curso de álgebra
 lineal. La mayor parte de los libros inician con sistemas de
@@ -34,9 +34,9 @@ física. Desde el principio se enfatiza el método axiomático y
 deductivo, es decir, las definiciones, los ejemplos y las
 demostraciones de los teoremas.
 
-# Temario
+## Temario ##
 
-## Espacios vectoriales
+### Espacios vectoriales ###
 
 -   Campos
 
@@ -44,7 +44,7 @@ demostraciones de los teoremas.
 
 -   Propiedades elementales de los espacios vectoriales
 
-## Subespacios
+### Subespacios ###
 
 -   Definición y ejemplos
 
@@ -54,13 +54,13 @@ demostraciones de los teoremas.
 
 -   Combinaciones lineales
 
-## Independencia lineal
+### Independencia lineal ###
 
 -   Definición
 
 -   Bases y dimensión
 
-## Transformaciones lineales
+### Transformaciones lineales ###
 
 -   Definición y ejemplos
 
@@ -75,14 +75,14 @@ demostraciones de los teoremas.
 -   La matriz de cambio de coordenadas
 
 -   Aspectos teóricos de los sistemas de ecuaciones lineales
-
-# Evaluación del curso
+    
+## Evaluación del curso ##
 
 Se efectuarán tres evaluaciones del curso, cada evaluación consta de
 un "preexamen" y un examen. Cada preexamen vale $\frac{1}{12}$ y cada
 examen vale $\frac{1}{4}$ de la calificación final.
 
-## Fechas de exámenes:
+## Fechas de exámenes: ##
 
 -   Primer preexamen: 22 de agosto
 
@@ -96,7 +96,7 @@ examen vale $\frac{1}{4}$ de la calificación final.
 
 -   Tercer examen: 20 de noviembre
 
-# Bibliografía recomendada
+## Bibliografía recomendada ##
 
 Los siguientes libros se encuentran en la sala de lectura del CIMA:
 
