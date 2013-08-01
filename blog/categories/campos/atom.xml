@@ -4,7 +4,7 @@
   <title><![CDATA[Category: campos | Álgebra Lineal]]></title>
   <link href="http://rvf0068.github.io/algebra-lineal/blog/categories/campos/atom.xml" rel="self"/>
   <link href="http://rvf0068.github.io/algebra-lineal/"/>
-  <updated>2013-07-31T12:17:34-05:00</updated>
+  <updated>2013-08-01T12:54:21-05:00</updated>
   <id>http://rvf0068.github.io/algebra-lineal/</id>
   <author>
     <name><![CDATA[Rafael Villarroel]]></name>
@@ -74,6 +74,21 @@ operaciones dadas por:</li>
 
 <p>es un campo.</p>
 
+<ul>
+  <li>El conjunto $\mathbb{F}_p=\{0,1,\ldots,p-1\}$, con suma y producto
+módulo $p$ es un campo para todo $p$ primo.</li>
+</ul>
+
+<p>Por otro lado los siguientes no son campos:</p>
+
+<ul>
+  <li>El conjunto $\mathbb{Z}$ de los números enteros con las operaciones
+usuales, ya que por ejemplo $3$ no tiene inverso multiplicativo.</li>
+  <li>El conjunto $\mathbb{Z}_6$ con suma y producto módulo 6, ya que se
+tiene que $2\cdot 3=0$. Pero como veremos luego, si en un campo se
+multiplican dos elementos distintos de cero, el resultado es
+distinto de cero.</li>
+</ul>
 ]]></content>
   </entry>
   
