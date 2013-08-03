@@ -68,3 +68,16 @@ $$(a,b)(c,d)=(ac-bd,ad+bc)$$
 
 es un campo.
 
+- El conjunto $\mathbb{Z}_p=\\{0,1,\ldots,p-1\\}$, con suma y producto
+  módulo $p$ es un campo para todo $p$ primo.
+
+
+Por otro lado los siguientes no son campos:
+
+- El conjunto $\mathbb{Z}$ de los números enteros con las operaciones
+  usuales, ya que por ejemplo $3\in\mathbb{Z}$ no tiene inverso
+  multiplicativo.
+- El conjunto $\mathbb{Z}_6$ con suma y producto módulo 6, ya que se
+  tiene que $2\cdot 3=0$. Pero como veremos luego, si en un campo se
+  multiplican dos elementos distintos de cero, el resultado es
+  distinto de cero.
