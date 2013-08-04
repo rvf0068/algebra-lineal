@@ -4,7 +4,7 @@
   <title><![CDATA[Category: axiomas | Álgebra Lineal]]></title>
   <link href="http://rvf0068.github.io/algebra-lineal/blog/categories/axiomas/atom.xml" rel="self"/>
   <link href="http://rvf0068.github.io/algebra-lineal/"/>
-  <updated>2013-08-01T18:03:42-05:00</updated>
+  <updated>2013-08-03T23:30:47-05:00</updated>
   <id>http://rvf0068.github.io/algebra-lineal/</id>
   <author>
     <name><![CDATA[Rafael Villarroel]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Espacios vectoriales]]></title>
+    <link href="http://rvf0068.github.io/algebra-lineal/blog/2013/08/03/espacios-vectoriales/"/>
+    <updated>2013-08-03T18:00:00-05:00</updated>
+    <id>http://rvf0068.github.io/algebra-lineal/blog/2013/08/03/espacios-vectoriales</id>
+    <content type="html"><![CDATA[<h2 id="definicin-y-ejemplos">Definición y ejemplos</h2>
+
+<h3 id="definicin">Definición</h3>
+
+<p>Sea $F$ un campo. Decimos que $V$ es un <em>espacio vectorial sobre $F$</em>
+si es un conjunto con dos operaciones, una suma $+\colon V\times V\to
+V$ y un <em>producto por escalares</em> $\cdot\colon F\times V\to V$ tales
+que:</p>
+
+<dl>
+  <dt><strong>V1:</strong></dt>
+  <dd>La suma es conmutativa, es decir $v+w=w+v$ para todos
+      $v,w\in F$.</dd>
+  <dt><strong>V2:</strong></dt>
+  <dd>La suma es asociativa.</dd>
+  <dt><strong>V3:</strong></dt>
+  <dd>Existe un elemento $0\in V$ tal que $v+0=0+v=v$ para todo
+$v\in V$. El elemento $0$ se llama elemento neutro.</dd>
+  <dt><strong>V4:</strong></dt>
+  <dd>Para todo elemento $v\in V$, existe un elemento $-v\in V$
+tal que $v+(-v)=(-v)+v=0$. El elemento $-v$ se llama
+inverso aditivo de $v$.</dd>
+  <dt><strong>V5:</strong></dt>
+  <dd>Para todo $v\in V$ se tiene que $1v=v$.</dd>
+  <dt><strong>V6:</strong></dt>
+  <dd>Para todos <script type="math/tex">\lambda_{1},\lambda_{2}\in F</script>, $v\in V$ se tiene que
+<script type="math/tex">\lambda_{1}(\lambda_{2}v)=(\lambda_{1}\lambda_{2})v</script>.</dd>
+  <dt><strong>V7:</strong></dt>
+  <dd>Para todos <script type="math/tex">\lambda_{1},\lambda_{2}\in F</script>, <script type="math/tex">v\in V</script> se tiene que
+<script type="math/tex">(\lambda_{1}+\lambda_{2})v=\lambda_{1}v+\lambda_{2}v</script>,
+y también, para todos <script type="math/tex">\lambda\in F</script>, <script type="math/tex">v_{1},v_{2}\in V</script> se tiene que
+<script type="math/tex">\lambda(v_{1}+v_{2})=\lambda v_{1}+\lambda v_{2}</script>.</dd>
+</dl>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Campos]]></title>
