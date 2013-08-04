@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ejemplos | Álgebra Lineal]]></title>
+  <link href="http://rvf0068.github.io/algebra-lineal/blog/categories/ejemplos/atom.xml" rel="self"/>
+  <link href="http://rvf0068.github.io/algebra-lineal/"/>
+  <updated>2013-08-04T15:26:09-05:00</updated>
+  <id>http://rvf0068.github.io/algebra-lineal/</id>
+  <author>
+    <name><![CDATA[Rafael Villarroel]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ejemplos de espacios]]></title>
+    <link href="http://rvf0068.github.io/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios/"/>
+    <updated>2013-08-04T14:05:00-05:00</updated>
+    <id>http://rvf0068.github.io/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios</id>
+    <content type="html"><![CDATA[<ul>
+  <li>Sea <script type="math/tex">F</script> un campo y
+<script type="math/tex">V=F^{n}=\{(a_{1},a_{2},\ldots,a_{n})\mid a_{1},\ldots,a_{n}\in F\}</script>.
+Definimos la suma en <script type="math/tex">V</script> como</li>
+</ul>
+
+<script type="math/tex; mode=display">
+(a_{1},a_{2},\ldots,a_{n})+(b_{1},b_{2},\ldots,b_{n})=(a_{1}+b_{1},\ldots,a_{n}+b_{n})
+</script>
+
+<p>y el producto por escalares como:</p>
+
+<script type="math/tex; mode=display">
+\lambda(a_{1},\ldots,a_{n})=(\lambda a_{1},\ldots,\lambda a_{n}).
+</script>
+
+<p>Con estas operaciones, <script type="math/tex">V</script> es un espacio vectorial.</p>
+
+<ul>
+  <li>Sea <script type="math/tex">F</script> un campo cualquiera. Sea <script type="math/tex">V=F[x]</script> el conjunto de todos los
+polinomios con coeficientes en <script type="math/tex">F</script>. La suma en <script type="math/tex">V</script> es la suma
+usual. El producto por escalares se define como:</li>
+</ul>
+
+<script type="math/tex; mode=display">
+\lambda(a_{0}+a_{1}x+a_{2}x^{2}+\cdots+a_{n}x^{n})=
+\lambda a_{0}+\lambda a_{1}x+\lambda a_{2}x^{2}+\cdots+\lambda a_{n}x^{n}
+</script>
+]]></content>
+  </entry>
+  
+</feed>

@@ -5,13 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Espacios vectoriales - Álgebra Lineal</title>
+  <title>Ejemplos de espacios - Álgebra Lineal</title>
   <meta name="author" content="Rafael Villarroel">
 
   
-  <meta name="description" content="Sea $F$ un campo. Decimos que $V$ es un espacio vectorial sobre $F$
-si es un conjunto con dos operaciones, una suma $+\colon V\times V\to
-V$ y un &hellip;">
+  <meta name="description" content="Sea un campo y
+.
+Definimos la suma en como (a_{1},a_{2},\ldots,a_{n})+(b_{1},b_{2},\ldots,b_{n})=(a_{1}+b_{1},\ldots,a_{n}+b_{n}) y el producto por &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +20,7 @@ V$ y un &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://rvf0068.github.io/algebra-lineal/blog/2013/08/03/espacios-vectoriales">
+  <link rel="canonical" href="http://rvf0068.github.io/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios">
   <link href="/algebra-lineal/favicon.png" rel="icon">
   <link href="/algebra-lineal/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/algebra-lineal/atom.xml" rel="alternate" title="Álgebra Lineal" type="application/atom+xml">
@@ -113,7 +113,7 @@ $(sagecell.init(
   
   <header>
     
-      <h1 class="entry-title">Espacios vectoriales</h1>
+      <h1 class="entry-title">Ejemplos de espacios</h1>
     
     
       <p class="meta">
@@ -129,48 +129,41 @@ $(sagecell.init(
   
 
 
-<time datetime="2013-08-03T18:00:00-05:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2013</time>
+<time datetime="2013-08-04T14:05:00-05:00" pubdate data-updated="true">Aug 4<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Sea $F$ un campo. Decimos que $V$ es un <em>espacio vectorial sobre $F$</em>
-si es un conjunto con dos operaciones, una suma $+\colon V\times V\to
-V$ y un <em>producto por escalares</em> $\cdot\colon F\times V\to V$ tales
-que:</p>
+<div class="entry-content"><ul>
+  <li>Sea <script type="math/tex">F</script> un campo y
+<script type="math/tex">V=F^{n}=\{(a_{1},a_{2},\ldots,a_{n})\mid a_{1},\ldots,a_{n}\in F\}</script>.
+Definimos la suma en <script type="math/tex">V</script> como</li>
+</ul>
 
-<dl>
-  <dt><strong>V1:</strong></dt>
-  <dd>La suma es conmutativa, es decir $v+w=w+v$ para todos
-      $v,w\in F$.</dd>
-  <dt><strong>V2:</strong></dt>
-  <dd>La suma es asociativa.</dd>
-  <dt><strong>V3:</strong></dt>
-  <dd>Existe un elemento $0\in V$ tal que $v+0=0+v=v$ para todo
-$v\in V$. El elemento $0$ se llama elemento neutro.</dd>
-  <dt><strong>V4:</strong></dt>
-  <dd>Para todo elemento $v\in V$, existe un elemento $-v\in V$
-tal que $v+(-v)=(-v)+v=0$. El elemento $-v$ se llama
-inverso aditivo de $v$.</dd>
-  <dt><strong>V5:</strong></dt>
-  <dd>Para todo $v\in V$ se tiene que $1v=v$.</dd>
-  <dt><strong>V6:</strong></dt>
-  <dd>Para todos <script type="math/tex">\lambda_{1},\lambda_{2}\in F</script>, $v\in V$ se tiene que
-<script type="math/tex">\lambda_{1}(\lambda_{2}v)=(\lambda_{1}\lambda_{2})v</script>.</dd>
-  <dt><strong>V7:</strong></dt>
-  <dd>Para todos <script type="math/tex">\lambda_{1},\lambda_{2}\in F</script>, <script type="math/tex">v\in V</script> se tiene que
-<script type="math/tex">(\lambda_{1}+\lambda_{2})v=\lambda_{1}v+\lambda_{2}v</script>,
-y también, para todos <script type="math/tex">\lambda\in F</script>, <script type="math/tex">v_{1},v_{2}\in V</script> se tiene que
-<script type="math/tex">\lambda(v_{1}+v_{2})=\lambda v_{1}+\lambda v_{2}</script>.</dd>
-</dl>
+<script type="math/tex; mode=display">
+(a_{1},a_{2},\ldots,a_{n})+(b_{1},b_{2},\ldots,b_{n})=(a_{1}+b_{1},\ldots,a_{n}+b_{n})
+</script>
 
-<hr />
+<p>y el producto por escalares como:</p>
 
-<p>Si <script type="math/tex">V</script> es un espacio vectorial sobre <script type="math/tex">F</script>, a los elementos de <script type="math/tex">V</script>
-se les llama <em>vectores</em> y a los elementos de <script type="math/tex">F</script> se les llama
-<em>escalares</em>. </p>
+<script type="math/tex; mode=display">
+\lambda(a_{1},\ldots,a_{n})=(\lambda a_{1},\ldots,\lambda a_{n}).
+</script>
+
+<p>Con estas operaciones, <script type="math/tex">V</script> es un espacio vectorial.</p>
+
+<ul>
+  <li>Sea <script type="math/tex">F</script> un campo cualquiera. Sea <script type="math/tex">V=F[x]</script> el conjunto de todos los
+polinomios con coeficientes en <script type="math/tex">F</script>. La suma en <script type="math/tex">V</script> es la suma
+usual. El producto por escalares se define como:</li>
+</ul>
+
+<script type="math/tex; mode=display">
+\lambda(a_{0}+a_{1}x+a_{2}x^{2}+\cdots+a_{n}x^{n})=
+\lambda a_{0}+\lambda a_{1}x+\lambda a_{2}x^{2}+\cdots+\lambda a_{n}x^{n}
+</script>
 </div>
 
 
@@ -193,12 +186,12 @@ se les llama <em>vectores</em> y a los elementos de <script type="math/tex">F</s
   
 
 
-<time datetime="2013-08-03T18:00:00-05:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2013</time>
+<time datetime="2013-08-04T14:05:00-05:00" pubdate data-updated="true">Aug 4<span>th</span>, 2013</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/algebra-lineal/blog/categories/axiomas/'>axiomas</a>, <a class='category' href='/algebra-lineal/blog/categories/espacios/'>espacios</a>
+    <a class='category' href='/algebra-lineal/blog/categories/ejemplos/'>ejemplos</a>, <a class='category' href='/algebra-lineal/blog/categories/espacios/'>espacios</a>
   
 </span>
 
@@ -207,7 +200,7 @@ se les llama <em>vectores</em> y a los elementos de <script type="math/tex">F</s
     
       <div class="sharing">
   
-  <a href="/algebra-lineal//twitter.com/share" class="twitter-share-button" data-url="http://rvf0068.github.io/algebra-lineal/blog/2013/08/03/espacios-vectoriales/" data-via="" data-counturl="http://rvf0068.github.io/algebra-lineal/blog/2013/08/03/espacios-vectoriales/" >Tweet</a>
+  <a href="/algebra-lineal//twitter.com/share" class="twitter-share-button" data-url="http://rvf0068.github.io/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios/" data-via="" data-counturl="http://rvf0068.github.io/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -220,10 +213,8 @@ se les llama <em>vectores</em> y a los elementos de <script type="math/tex">F</s
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/algebra-lineal/blog/2013/07/31/campos/" title="Previous Post: Campos">&laquo; Campos</a>
+        <a class="basic-alignment left" href="/algebra-lineal/blog/2013/08/03/espacios-vectoriales/" title="Previous Post: Espacios vectoriales">&laquo; Espacios vectoriales</a>
       
-      
-        <a class="basic-alignment right" href="/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios/" title="Next Post: Ejemplos de espacios">Ejemplos de espacios &raquo;</a>
       
     </p>
   </footer>
@@ -281,8 +272,8 @@ se les llama <em>vectores</em> y a los elementos de <script type="math/tex">F</s
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://rvf0068.github.io/algebra-lineal/blog/2013/08/03/espacios-vectoriales/';
-        var disqus_url = 'http://rvf0068.github.io/algebra-lineal/blog/2013/08/03/espacios-vectoriales/';
+        var disqus_identifier = 'http://rvf0068.github.io/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios/';
+        var disqus_url = 'http://rvf0068.github.io/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios/';
         var disqus_script = 'embed.js';
       
     (function () {

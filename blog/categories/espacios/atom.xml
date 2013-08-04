@@ -4,7 +4,7 @@
   <title><![CDATA[Category: espacios | Álgebra Lineal]]></title>
   <link href="http://rvf0068.github.io/algebra-lineal/blog/categories/espacios/atom.xml" rel="self"/>
   <link href="http://rvf0068.github.io/algebra-lineal/"/>
-  <updated>2013-08-03T23:30:47-05:00</updated>
+  <updated>2013-08-04T15:26:09-05:00</updated>
   <id>http://rvf0068.github.io/algebra-lineal/</id>
   <author>
     <name><![CDATA[Rafael Villarroel]]></name>
@@ -14,15 +14,47 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Ejemplos de espacios]]></title>
+    <link href="http://rvf0068.github.io/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios/"/>
+    <updated>2013-08-04T14:05:00-05:00</updated>
+    <id>http://rvf0068.github.io/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios</id>
+    <content type="html"><![CDATA[<ul>
+  <li>Sea <script type="math/tex">F</script> un campo y
+<script type="math/tex">V=F^{n}=\{(a_{1},a_{2},\ldots,a_{n})\mid a_{1},\ldots,a_{n}\in F\}</script>.
+Definimos la suma en <script type="math/tex">V</script> como</li>
+</ul>
+
+<script type="math/tex; mode=display">
+(a_{1},a_{2},\ldots,a_{n})+(b_{1},b_{2},\ldots,b_{n})=(a_{1}+b_{1},\ldots,a_{n}+b_{n})
+</script>
+
+<p>y el producto por escalares como:</p>
+
+<script type="math/tex; mode=display">
+\lambda(a_{1},\ldots,a_{n})=(\lambda a_{1},\ldots,\lambda a_{n}).
+</script>
+
+<p>Con estas operaciones, <script type="math/tex">V</script> es un espacio vectorial.</p>
+
+<ul>
+  <li>Sea <script type="math/tex">F</script> un campo cualquiera. Sea <script type="math/tex">V=F[x]</script> el conjunto de todos los
+polinomios con coeficientes en <script type="math/tex">F</script>. La suma en <script type="math/tex">V</script> es la suma
+usual. El producto por escalares se define como:</li>
+</ul>
+
+<script type="math/tex; mode=display">
+\lambda(a_{0}+a_{1}x+a_{2}x^{2}+\cdots+a_{n}x^{n})=
+\lambda a_{0}+\lambda a_{1}x+\lambda a_{2}x^{2}+\cdots+\lambda a_{n}x^{n}
+</script>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Espacios vectoriales]]></title>
     <link href="http://rvf0068.github.io/algebra-lineal/blog/2013/08/03/espacios-vectoriales/"/>
     <updated>2013-08-03T18:00:00-05:00</updated>
     <id>http://rvf0068.github.io/algebra-lineal/blog/2013/08/03/espacios-vectoriales</id>
-    <content type="html"><![CDATA[<h2 id="definicin-y-ejemplos">Definición y ejemplos</h2>
-
-<h3 id="definicin">Definición</h3>
-
-<p>Sea $F$ un campo. Decimos que $V$ es un <em>espacio vectorial sobre $F$</em>
+    <content type="html"><![CDATA[<p>Sea $F$ un campo. Decimos que $V$ es un <em>espacio vectorial sobre $F$</em>
 si es un conjunto con dos operaciones, una suma $+\colon V\times V\to
 V$ y un <em>producto por escalares</em> $\cdot\colon F\times V\to V$ tales
 que:</p>
@@ -51,6 +83,12 @@ inverso aditivo de $v$.</dd>
 y también, para todos <script type="math/tex">\lambda\in F</script>, <script type="math/tex">v_{1},v_{2}\in V</script> se tiene que
 <script type="math/tex">\lambda(v_{1}+v_{2})=\lambda v_{1}+\lambda v_{2}</script>.</dd>
 </dl>
+
+<hr />
+
+<p>Si <script type="math/tex">V</script> es un espacio vectorial sobre <script type="math/tex">F</script>, a los elementos de <script type="math/tex">V</script>
+se les llama <em>vectores</em> y a los elementos de <script type="math/tex">F</script> se les llama
+<em>escalares</em>. </p>
 ]]></content>
   </entry>
   
