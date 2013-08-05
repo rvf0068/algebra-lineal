@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: axiomas - Álgebra Lineal</title>
+  <title>El programa Sage - Álgebra Lineal</title>
   <meta name="author" content="Rafael Villarroel">
 
   
-  <meta name="description" content="Category: axiomas">
+  <meta name="description" content="Sage es un programa de código abierto para
+realizar cálculos en diversas áreas de las matemáticas, desde nivel
+básico hasta investigación. Aquí &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://rvf0068.github.io/algebra-linealblog/categories/axiomas">
+  <link rel="canonical" href="http://rvf0068.github.io/algebra-lineal/blog/2013/08/05/el-programa-sage">
   <link href="/algebra-lineal/favicon.png" rel="icon">
   <link href="/algebra-lineal/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/algebra-lineal/atom.xml" rel="alternate" title="Álgebra Lineal" type="application/atom+xml">
@@ -87,50 +89,173 @@ MathJax.Hub.Config({
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: axiomas</h1>
+    
+      <h1 class="entry-title">El programa Sage</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-05T08:55:00-05:00" pubdate data-updated="true">Aug 5<span>th</span>, 2013</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p><a href="http://www.sagemath.org">Sage</a> es un programa de código abierto para
+realizar cálculos en diversas áreas de las matemáticas, desde nivel
+básico hasta investigación. Aquí muestro algunos ejemplos para
+familiarizarnos con su uso. Oprime el botón <code>¡Calcular!</code>.</p>
 
-  
-  <h2>2013</h2>
+<hr />
 
-<article>
-  
-<h1><a href="/algebra-lineal/blog/2013/08/03/espacios-vectoriales/">Espacios vectoriales</a></h1>
-<time datetime="2013-08-03T18:00:00-05:00" pubdate><span class='month'>Aug</span> <span class='day'>03</span> <span class='year'>2013</span></time>
+<p>Un cálculo trivial:</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/algebra-lineal/blog/categories/axiomas/'>axiomas</a>, <a class='category' href='/algebra-lineal/blog/categories/espacios/'>espacios</a></span>
-</footer>
+<div class="sage"><script type="text/x-sage">
+2+2
+</script></div>
 
+<hr />
 
-</article>
+<p>En el siguiente ejemplo aparece una barra que puedes deslizar para
+cambiar el exponente: </p>
 
+<hr />
 
+<p>Exponenciación:</p>
 
-<article>
-  
-<h1><a href="/algebra-lineal/blog/2013/07/31/campos/">Campos</a></h1>
-<time datetime="2013-07-31T11:45:00-05:00" pubdate><span class='month'>Jul</span> <span class='day'>31</span> <span class='year'>2013</span></time>
+<div class="sage"><script type="text/x-sage">
+@interact
+def f1(exponente=slider(2,20,1)):
+  k1 = exponente
+  k2 = 2^exponente
+  print "2^%s = %s" % (k1, k2)
+</script></div>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/algebra-lineal/blog/categories/axiomas/'>axiomas</a>, <a class='category' href='/algebra-lineal/blog/categories/campos/'>campos</a></span>
-</footer>
+<hr />
 
+<p>Factorización:</p>
 
-</article>
+<div class="sage"><script type="text/x-sage">
+factor(2013)
+</script></div>
 
+<div class="sage"><script type="text/x-sage">
+factor(x^4 - 30*x^3 - 80*x^2)
+</script></div>
+
+<hr />
+
+<p>Resolución de ecuaciones:</p>
+
+<div class="sage"><script type="text/x-sage">
+x=var('x') 
+solve(x^2+3*x+2==0,x)
+</script></div>
+
+<div class="sage"><script type="text/x-sage">
+a=var('a')      
+solve(a*x^2+3*(a-1)*x+2,x)   
+</script></div>
+
+<hr />
+
+<p>Graficación de funciones de una variable:</p>
+
+<div class="sage"><script type="text/x-sage">
+f=(x-1)*(x-2)*(x-3)     
+plot(f,-1,4)
+</script></div>
+
+<div class="sage"><script type="text/x-sage">
+p1=plot(x,0,1)                         
+p2=plot(x^2,0,1,color="purple")
+p3=plot(x^3,0,1,color="green")
+show(p1+p2+p3)
+</script></div>
+
+<hr />
+
+<p>Graficación de funciones de dos variables (utiliza Java):</p>
+
+<div class="sage"><script type="text/x-sage">
+y=var('y') 
+plot3d(sin(x*y), (x, -pi, pi), (y, -pi, pi))
+</script></div>
+
+<hr />
+
+<p>En <a href="http://sagemath.org/eval.html">esta</a> página se encuentran muchos
+otros ejemplos.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Rafael Villarroel</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-08-05T08:55:00-05:00" pubdate data-updated="true">Aug 5<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="/algebra-lineal//twitter.com/share" class="twitter-share-button" data-url="http://rvf0068.github.io/algebra-lineal/blog/2013/08/05/el-programa-sage/" data-via="" data-counturl="http://rvf0068.github.io/algebra-lineal/blog/2013/08/05/el-programa-sage/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios/" title="Previous Post: Ejemplos de espacios">&laquo; Ejemplos de espacios</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -181,7 +306,10 @@ MathJax.Hub.Config({
       var disqus_shortname = 'algebralineal';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://rvf0068.github.io/algebra-lineal/blog/2013/08/05/el-programa-sage/';
+        var disqus_url = 'http://rvf0068.github.io/algebra-lineal/blog/2013/08/05/el-programa-sage/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

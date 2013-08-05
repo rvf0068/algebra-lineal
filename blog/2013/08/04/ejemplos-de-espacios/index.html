@@ -48,33 +48,13 @@ MathJax.Hub.Config({
 </script>
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
 
-  
-
-
-<script type="text/javascript" src="http://aleph.sagemath.org/static/jquery.min.js"></script>
-<script type="text/javascript" src="http://aleph.sagemath.org/embedded_sagecell.js"></script>
-
-<!-- Initialize each cell -->
-<script>
-$(sagecell.init(
-    function() {
-        singlecell.makeSagecell({
-            inputLocation: '#sagecell1', 
-            replaceOutput: true,
-            hide: ['messages', 'computationID', 'files', 'sageMode', 
-                   'editorToggle', 'sessionTitle', 'done'],
-            evalButtonText: 'Evaluate'})
-    }
- ))
+<script src="https://sagecell.sagemath.org/static/jquery.min.js"></script>
+<script src="https://sagecell.sagemath.org/embedded_sagecell.js"></script>
+<script>$(function(){sagecell.makeSagecell({inputLocation:'.sage',
+                                            evalButtonText:'¡Calcular!'})});
 </script>
 
-<!-- Illustrate some CSS customizations --> 
-
-<style type="text/css">
-.CodeMirror-scroll {/* Slightly shorter input box */
-    height: 6em;
-}
-</style>
+  
 
 </head>
 
@@ -216,6 +196,8 @@ usual. El producto por escalares se define como:</li>
         <a class="basic-alignment left" href="/algebra-lineal/blog/2013/08/03/espacios-vectoriales/" title="Previous Post: Espacios vectoriales">&laquo; Espacios vectoriales</a>
       
       
+        <a class="basic-alignment right" href="/algebra-lineal/blog/2013/08/05/el-programa-sage/" title="Next Post: El programa Sage">El programa Sage &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -233,6 +215,10 @@ usual. El producto por escalares se define como:</li>
     <section>
   <h1>Entradas Recientes</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/algebra-lineal/blog/2013/08/05/el-programa-sage/">El programa Sage</a>
+      </li>
     
       <li class="post">
         <a href="/algebra-lineal/blog/2013/08/04/ejemplos-de-espacios/">Ejemplos de espacios</a>
