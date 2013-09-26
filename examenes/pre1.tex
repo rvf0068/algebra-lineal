@@ -1,0 +1,65 @@
+\documentclass[12pt]{exam}
+\usepackage[spanish,mexico]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{mymacros}
+\usepackage{fullpage}
+\usepackage{amsmath,amsfonts}
+\usepackage{enumerate}
+\pagestyle{head}
+\extraheadheight{.8in}
+\pointname{ puntos}
+\lhead{Algebra Lineal, LIFTA, UAEH.\\
+Primer Preexamen,\\
+22 de agosto de 2013}
+\usepackage{fourier}
+
+\DeclareMathOperator{\Ker}{ker}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\setof}[2]{\left\{\,#1\mid #2\,\right\}}
+
+\begin{document}
+\hbox to \textwidth{NOMBRE:\enspace\hrulefill}
+\bigskip{}
+
+Recuerda que debes explicar tus respuestas. Respuestas con poca o nula
+argumentación adecuada recibirán poco o nada de crédito. Escoge 5
+preguntas, marcando de manera clara las preguntas
+seleccionadas. Tienes 50 minutos para resolverlo.
+
+\begin{questions}
+  \question Menciona tres ejemplos de campos (no es necesario
+  demostrar que lo son).
+
+  \question Determina si el conjunto
+  \begin{equation*}
+    \setof{(x,y)\in\RR^{2}}{x^{2}+y=0}
+  \end{equation*}
+  es un subespacio de $\RR^2$.
+
+  \question Determina si el conjunto
+  \begin{equation*}
+    \setof{(x,y,z)\in\RR^{3}}{2x+3y-z=x+4y+z}
+  \end{equation*}
+  es un subespacio de $\RR^3$.
+
+  \question Sea $V=\setof{(x,y)}{x,y\in\RR}$. Define la suma en
+  $V$ como $(x,y)+(x',y')=(x+x',y+y')$, y el producto por escalar
+  $\lambda\in\RR$ como:
+  \begin{equation*}
+    \lambda(x,y)=
+    \begin{cases}
+      (0,0) & \text{si $\lambda=0$}\\
+      (\lambda x,\frac{y}{\lambda}) & \text{si $\lambda\ne 0$}
+    \end{cases}
+  \end{equation*}
+  ¿Es $V$ junto con estas operaciones un espacio vectorial?
+
+  \question Sea $V$ un espacio vectorial sobre un campo $F$. Demuestra
+  que si $W_{1}\leq V$ y $W_{2}\leq V$, entonces $W_{1}\cap W_{2}\leq V$.
+
+  \question ¿Verdadero o falso? Existen espacios vectoriales donde hay
+  dos neutros aditivos distintos.
+
+\end{questions}
+\end{document}

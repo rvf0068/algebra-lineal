@@ -1,0 +1,63 @@
+\documentclass[12pt]{exam}
+\usepackage[spanish,mexico]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{mymacros}
+\usepackage{fullpage}
+\usepackage{amsmath,amsfonts}
+\usepackage{enumerate}
+\pagestyle{head}
+\extraheadheight{.8in}
+\pointname{ puntos}
+\lhead{Algebra Lineal, LIFTA, UAEH.\\
+Segundo Preexamen,\\
+19 de septiembre de 2012}
+\usepackage{fourier}
+
+\DeclareMathOperator{\Ker}{ker}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\setof}[2]{\left\{\,#1\mid #2\,\right\}}
+
+\begin{document}
+\hbox to \textwidth{NOMBRE:\enspace\hrulefill}
+\bigskip{}
+
+Recuerda que debes explicar tus respuestas. Respuestas con poca o nula
+argumentación adecuada recibirán poco o nada de crédito. Escoge 5
+preguntas, marcando de manera clara las preguntas
+seleccionadas. Tienes 50 minutos para resolverlo.
+
+\begin{questions}
+  \question ¿Verdadero o falso? Sean $V$ un espacio vectorial sobre el
+  campo $F$ y $S=\{v_{1},v_{2},\ldots,v_{n}\}\subseteq V$ un conjunto
+  linealmente dependiente tal que existen
+  $\lambda_{1},\lambda_{2},\ldots,\lambda_{n}\in F$ tales que
+  \begin{equation*}
+    \lambda_{1}v_{1}+\lambda_{2}v_{2}+\cdots+\lambda_{n}v_{n}=0
+  \end{equation*}
+  Entonces, se deduce que $\lambda_{i}\ne 0$ para algún
+  $i\in\{1,2,\ldots,n\}$.
+
+  \question Determina si el conjunto
+  \begin{equation*}
+    \setof{(x,y,z)\in\RR^{3}}{x+y+z=0}
+  \end{equation*}
+  es un subespacio de $\RR^3$.
+
+  \question Determina si el conjunto
+  $\{(1,2,3),(3,4,5),(5,6,7)\}\subseteq\RR^{3}$ es linealmente
+  dependiente o linealmente independiente.
+
+  \question Determina si el conjunto
+  $\{(1,1,1),(1,0,1),(0,1,0)\}\subseteq\RR^{3}$ es linealmente
+  dependiente o linealmente independiente.
+
+ \question Determina si el conjunto
+  $\{(1,2,4),(1,3,9),(1,4,16)\}\subseteq\RR^{3}$ es linealmente
+  dependiente o linealmente independiente.
+
+ \question Determina si el conjunto
+  $\{(0,1,1,1),(1,0,1,1),(1,1,0,1),(1,1,1,0)\}\subseteq\RR^{4}$ es linealmente
+  dependiente o linealmente independiente.
+\end{questions}
+\end{document}

@@ -1,0 +1,62 @@
+\documentclass[12pt]{exam}
+
+\usepackage[spanish,mexico]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{fullpage}
+\usepackage{amsmath,amsfonts}
+\usepackage{enumerate}
+\pagestyle{head}
+\extraheadheight{.8in}
+
+\lhead{Algebra Lineal, LIFTA, UAEH.\\
+Primer Examen,\\
+2 de septiembre de 2013}
+
+\usepackage{fourier}
+
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\setof}[2]{\left\{\,#1\mid #2\,\right\}}
+
+\begin{document}
+\hbox to \textwidth{NOMBRE:\enspace\hrulefill}
+\bigskip{}
+
+Recuerda que debes explicar tus respuestas. Respuestas con poca o nula
+argumentación adecuada recibirán poco o nada de crédito. Escoge 5
+preguntas, marcando de manera clara las preguntas
+seleccionadas. Tienes dos horas para resolverlo.
+
+\begin{questions}
+  \question Determina si el conjunto
+  \begin{equation*}
+    \setof{(x,y,z)\in\RR^{3}}{x=z}
+  \end{equation*}
+  es un subespacio de $\RR^3$.
+
+  \question Determina si el conjunto
+  \begin{equation*}
+    \setof{(x,y,z)\in\RR^{3}}{2x-3y-z=x+4y-z}
+  \end{equation*}
+  es un subespacio de $\RR^3$.
+
+  \question Resuelve el sistema de ecuaciones:
+  \begin{alignat*}{3}
+    x &+2y &-z &=2\\
+    2x&+4y &+z &=7\\
+    3x&+6y &-2z&=7\\
+  \end{alignat*}
+
+  \question ¿Verdadero o falso? Sea $V$ un espacio vectorial sobre un
+  campo $F$. Entonces, si $W_{1}$ y $W_{2}$ son subespacios de $V$, se
+  tiene que $W_{1}\cap W_{2}$ es subespacio de $V$.
+
+  \question Determina si el vector $(1,2,3)$ es combinación lineal del
+  conjunto de vectores $\{(4,5,6),(7,8,9)\}$.
+
+  \question ¿Verdadero o falso? En el espacio vectorial $\RR[x]$, el
+  vector $x^{2}+1$ está en el subespacio generado por
+  $\{x^{3}+1,x^{2},x-1\}$.
+\end{questions}
+\end{document}
